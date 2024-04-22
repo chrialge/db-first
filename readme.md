@@ -17,8 +17,8 @@ Table name: car_used
 -   year | YEAR | NULL|
 -   Km | MEDIUMINT | NOTNULL
 -   veicol history |VARCHAR(255)|NULL
--   state | VARCHAR(20) | NULL
--   price | MEDIUMINT | NOT NULL
+-   state | VARCHAR(20) | NULL | DEFAULT ('contact the store')
+-   price | MEDIUMINT | NOT NULL| DEFAULT ('contact the store')
 -   description | TEXT | NULL | DEFAULT('i DON'T HAVE INFO)
 
 | ID         | brand         | typology        | name       | km           | year       | new drvers  | veicol history            | state                  | price    | description                     | alimentaztion    |
